@@ -17,7 +17,7 @@
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Metal+Mania" rel="stylesheet">
-    <title>Mike's Web Development Portfolio | About Me</title>
+    <title>Mike's Web Development Portfolio | Conact Me</title>
 </head>
 
 <body>
@@ -33,13 +33,13 @@
                     </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -49,58 +49,59 @@
 
     <section>
         <!------------- BANNER IMAGE ---------------->
-        <div class="banner-image-about">
-            <h2 class="image-text">Web Design and Development</h2>
-        </div>
-    </section>
 
-    <section>
-        <div class="main-container">
-            <div class="container">
-                <div class="row">
-                    <div class="about col-12 col-md-7">
-                        <h1>About Me</h1>
-                        <hr>
-                        <img class="about-image" src="./assets/img/me.jpg" alt="Picture of Mike Sherman">
-                        <p>Welcome to my portfolio page! My name is Mike Sherman. I am an entry level web developer living in
-                            Portsmouth, NH. I enjoy toying around with technology and seeing how things tick. I have spent
-                            the majority of my life tinkering with hardware or software in one form or another. After many
-                            years of interest and self study, I have finally decided to take the plunge into web design and
-                            development.
-                        </p>
-                        <p>This site will showcase some of my best work and provide a glimpse into my current and completed
-                            projects.
-                        </p>
-                    </div>
-                    <div class="col-md-1">
-
-                    </div>
-                    <div class="connect-container col-12 col-md-4">
-                        <div class="connect">
-                            <h2>Connect With Me!</h2>
+        <section>
+            <div class="main-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="about col-12 col-md-7">
+                            <h1>Contact Me!</h1>
                             <hr>
-                            <ul>
-                                <li><a target="_blank" href="http://www.linkedin.com/in/msherman83"><img src="./assets/img/linkedin.png" alt="LinkedIn"></a></li>
-                                <li><a target="_blank" href="https://msherman83.github.io"><img src="./assets/img/github.png" alt="Github"></a></li>
-                                <li><a href="mailto:msherman83@gmail.com"><img src="./assets/img/email.png" alt="Email"></a></li>
-                            </ul>
+                            <form>
+                                <div class="form-group">
+                                    <label for="email-form">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="bob@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name-form">Name:</label>
+                                    <input type="name" class="form-control" id="name" placeholder="Bob Villa">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-form">Message:</label>
+                                    <textarea class="form-control" id="message" rows="10"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="connect-container col-12 col-md-4">
+                            <div class="connect">
+                                <h2>Connect With Me!</h2>
+                                <hr>
+                                <ul>
+                                    <li><a target="_blank" href="http://www.linkedin.com/in/msherman83"><img src="./assets/img/linkedin.png" alt="LinkedIn"></a></li>
+                                    <li><a target="_blank" href="https://msherman83.github.io"><img src="./assets/img/github.png" alt="Github"></a></li>
+                                    <li><a href="mailto:msherman83@gmail.com"><img src="./assets/img/email.png" alt="Email"></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="footer col-12">
-            <p>&copy 2017 Mike Sherman</p>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="footer col-12">
+                        <p>&copy 2017 Mike Sherman</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 </body>
 
 </html>
